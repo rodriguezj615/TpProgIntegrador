@@ -34,7 +34,7 @@ if (isset($_POST['usuario']) && isset($_POST['clave'])) {
             }
         ?>
 
-        <form action="create.php" method="post">
+        <form action="nueva_cuenta.php" method="post">
             <input name="usuario" class="form-control form-control-lg" placeholder="Usuario"><br>
             <input name="clave" type="password" class="form-control form-control-lg" placeholder="Contraseña"><br>
             <input name="nombre" class="form-control form-control-lg" placeholder="Nombre"><br>

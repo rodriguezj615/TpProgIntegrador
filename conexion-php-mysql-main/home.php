@@ -13,7 +13,7 @@ if (isset($_SESSION['usuario'])) {
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Tp prog</title>
+        <title>Bienvenido al sistema</title>
         <link rel="stylesheet" href="bootstrap.min.css">
     </head>
     <body class="container">
@@ -22,6 +22,7 @@ if (isset($_SESSION['usuario'])) {
       </div>    
       <div class="text-center">
         <h3>Hola <?php echo $nomApe;?></h3>
+
         <p><a href="logout.php">Cerrar sesión</a></p>
       </div> 
     </body>
